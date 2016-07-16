@@ -1,0 +1,39 @@
+﻿已經開始建置於 2016/7/16 下午 01:26:31。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\IRM\IRM.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\IRM.unsuccessfulbuild"。
+       GenerateTargetFrameworkMonikerAttribute:
+       將略過目標 "GenerateTargetFrameworkMonikerAttribute"，因為所有輸出檔對於其輸入檔而言都已更新。
+       ClCompile:
+         所有輸出都是最新的。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\IRM.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt IRM.cpp /clr:nostdlib 
+         IRM.cpp
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(608): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(609): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(610): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(619): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(625): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(626): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+     1>c:\users\wunpig\documents\visual studio 2010\projects\irm\irm\Form1.h(627): warning C4309: '=' : 轉換導致常數值遭截斷; 可能需要使用較大的型別
+         所有輸出都是最新的。
+       CoreResGen:
+         相對於資源的來源檔案，並沒有資源過期。將略過產生資源。
+       ResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\Debug\IRM.exe" /INCREMENTAL /NOLOGO opencv_core2411d.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_features2d2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_nonfree2411d.lib opencv_legacy2411d.lib opencv_flann2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\IRM.Form1.resources /MANIFEST /ManifestFile:"Debug\IRM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\Debug\IRM.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\IRM.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         IRM.vcxproj -> C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\Debug\IRM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\Debug\IRM.exe;#1" /manifest Debug\IRM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\IRM.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\IRM.lastbuildstate"。
+     1>專案 "C:\Users\Wunpig\Documents\Visual Studio 2010\Projects\IRM\IRM\IRM.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.89
